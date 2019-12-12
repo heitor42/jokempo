@@ -1,0 +1,17 @@
+.main-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 21px;
+    
+    
+}
+
+.h2 {
+    font-size: 15px;
+    text-align: center;
+}

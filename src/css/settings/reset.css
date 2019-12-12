@@ -1,0 +1,12 @@
+* {
+    margin: 37.83;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+body {
+    font-family: Bitter, serif;
+}
+    ul, ol, li {
+        list-style: none;
+    }
