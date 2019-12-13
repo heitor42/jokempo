@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>404</title>
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/settings/reset.css">
+    <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/settings/color.css">
     <link rel="stylesheet" href="css/settings/gap.css">
     <link rel="stylesheet" href="css/elements/base.css">
@@ -17,13 +18,12 @@
     <link rel="stylesheet" href="css/components/main-logo.css">
     <link rel="stylesheet" href="css/components/simple-action.css">
     <link rel="stylesheet" href="css/components/primary-button.css">
-    <link rel="stylesheet" href="css/components/second-button.css">
-    <link rel="stylesheet" href="css/components/second-action.css">
+    <link rel="stylesheet" href="css/components/simple-title.css">
+    <link rel="stylesheet" href="css/components/simple-subtitle.css">
 
     <link rel="stylesheet" href="css/containers/main-header.css">
     <link rel="stylesheet" href="css/containers/main-menu.css">
-    <link rel="stylesheet" href="css/containers/main-article.css">
-    <link rel="stylesheet" href="css/containers/second-menu.css">
+    <link rel="stylesheet" href="css/containers/main-stage.css">
 </head>
 
 <body>
@@ -37,14 +37,15 @@
             <a class="primary-button" href="">Log in</a>
         </nav>
     </header>
-    <div calss="main-article">
-        <h1 class="h1">Seems like we were not ready for that click</h1>
-        <h2 class="h2">well, let's at least play a game?</h2>
-        <nav class="second-menu">
-            <a class="second-button" href="">Play</a>
-            <a class="second-action" href="index.html">Go Home</a>
-        </nav>
-    </div>
+
+    <section class="main-stage">
+        <h1 class="simple-title">Seems like we were not ready for that click</h1>
+        <h2 class="simple-subtitle">well, let's at least play a game?</h2>
+
+        <a class="primary-button -dark" href="">Play</a>
+        <a class="simple-action -light" href="index.html">Go Home</a>
+    </section>
+
     <footer>
 
     </footer>

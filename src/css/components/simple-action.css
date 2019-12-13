@@ -2,4 +2,10 @@
     color: var(--color-second);
     font-family: 'Comfortaa', cursive;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.-light {
+    font-family: 'Bitter', serif;
+    color: var(--color-base-light);
 }

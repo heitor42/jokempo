@@ -2,5 +2,11 @@
     background-color: var(--color-second);
     text-decoration: none;
     color: var(--color-primary);
-    border-radius: 5px;  
+    border-radius: 4px;  
+    font-family: 'Comfortaa', sans-serif;
+}
+.primary-button.-dark {
+    color: var(--color-base);
+    font-family: Bitter;
+    font-weight: bold;
 }
