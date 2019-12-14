@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: var(--gap-smoller) var(--gap-medium);
+    height: 5vh;
 }
 
 .main-header .main-logo {

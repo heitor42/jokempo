@@ -5,3 +5,26 @@
     justify-content: center;
     height: 80vh;
 }
+
+.main-stage > .simple-title {
+    font-size: 22px;
+    margin-bottom: var(--gap-smoller);
+}
+
+.main-stage > .simple-subtitle {
+    margin-bottom: var(--gap-big);
+    font-size: 15px;
+}
+
+.main-stage > .primary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 28px;
+    margin-bottom: var(--gap-smoller);
+    font-size: 15px;
+}
+.main-stage > .simple-action {
+    font-size: 15px;
+}
